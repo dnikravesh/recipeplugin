@@ -1,0 +1,2 @@
+# recipeplugin
+Printable recipe plugin
