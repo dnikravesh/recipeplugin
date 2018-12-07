@@ -9,16 +9,40 @@
     <title>Recipe Plugin</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Recipe Plugin</h1>
-    </div>
-    <div class="container">
-        <form action="">
-            <label for="title">Title</label>
-            <input type="text" id="title" placeholder="">
-            <label for="image">Image Link</label>
-            <input type="text" id="image" placeholder="">
-        </form>
+    <div class="container background">
+        <div class="container">
+            <h1>Recipe Plugin</h1>
+        </div>
+        <div class="container">
+            <form action="">
+                <label class="labels" for="title">Title:</label>
+                <input class="form-control right" type="text" id="title" placeholder="">
+                <!-- Make Images be browsable from your Computer/ or Link -->
+                <label class ="labels" for="image">Image Link:</label>
+                <input class="form-control right" type="text" id="image" placeholder="">
+                <!-- Radio Buttons -->
+                <label for="radio">SubRecipe</label>
+                <div>
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio" checked>1 Recipe</label>
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">2 Recipes</label>
+                    <label class="radio-inline">
+                        <input type="radio" name="optradio">3 Recipes</label>
+                </div>
+                <div class="form-group">
+                    <label for="direction">Directions:</label>
+                    <textarea class="form-control right" rows="5" id="comment"></textarea>
+                </div>
+                <!-- Insert Radio Buttons to add whether or not you want to add a Subrecipe. -->
+                <!-- <label for="subrecipe">Recipe Item 1</label>
+                <input type="text" id="subrecipe" placeholder="">
+                <label for="subrecipe2">Recipe Item 2</label>
+                <input type="text" id="subrecipe2" placeholder="">
+                <label for="subrecipe3">Recipe Item 3</label>
+                <input type="text" id="subrecipe3" placeholder=""> -->
+            </form>
+        </div>
     </div>
 </body>
 </html>
