@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("h1").click(function(){
-      $(this).hide();
+    $("#radio2").click(function(){
+      $(".sub1").show();
     });
   });
